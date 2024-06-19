@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title Explore Dance Academy
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+    link(rel="stylesheet" href="../static/style.css")
+    link(rel="stylesheet" href="../static/styleContact.css")
+    link(rel="stylesheet" media="screen and (max-width : 1200px)" href="../static/phone.css")
+    block scripts
+    //-block style
+  body
+    nav(class="navbar navbar-expand-lg navbar-light bg-light")
+      a(class="navbar-brand" href="/")
+        img(src="/static/logo.png" width="30" height="30" class="d-inline-block align-top" alt="")
+        |EDA
+      button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+        span(class="navbar-toggler-icon")
+      div(class="collapse navbar-collapse" id="navbarNav")
+        ul(class="navbar-nav")
+          li(class="nav-item active")
+            a(class="nav-link" href="/") Home 
+          li(class="nav-item active")
+            a(class="nav-link" href="/") About
+          li(class="nav-item active")
+            a(class="nav-link" href="/") Services
+          li(class="nav-item active")
+            a(class="nav-link" href="/contact") Contact Us
+    //-nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                |EDA 
+            li: a(href="/") Home
+            li: a(href="/") About
+            li: a(href="/") Services 
+            li: a(href="/") Class Info 
+            li: a(href="/contact") Contact Us
+    block content
+    footer#footer 
+        |Copyright © 2024 ExploreDanceAcademy.com | All rights reserved 

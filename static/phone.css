@@ -1,0 +1,49 @@
+#introSection {
+  height: 400px;
+  padding: 3px 14px;
+}
+
+#introSection div.large {
+  font-size: 35px;
+  padding-top: 105px;
+}
+
+#introSection::before {
+  height: 700px;
+}
+
+#introSection div.small {
+  font-size: 23px;
+}
+
+#missionSection h2 {
+  font-size: 30px;
+  margin-top: 250px;
+}
+
+.card-content {
+  padding-left: 50px;
+}
+
+.spImage {
+  width: 259px;
+  height: auto;
+}
+
+.myInput {
+  width: 88%;
+  padding: 9px;
+  margin: 13px;
+  font-size: 15px;
+  border: 2px solid #9d8e8e;
+  border-radius: 12px;
+  outline: none;
+}
+
+.btn{
+    padding: 10px 36px;
+}
+
+.container{
+    min-height: 96vh;
+}
