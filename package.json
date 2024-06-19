@@ -4,7 +4,8 @@
   "description": "This is a website for a popular dance academy",
   "main": "app.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive test",
+    "bump-version": "npm version patch"
   },
   "author": "Subhajit",
   "license": "ISC",
